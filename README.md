@@ -13,5 +13,6 @@ rm flower_photos.tgz
 INSTALL:
 conda update --prefix /home/saulo/anaconda2 anaconda
 conda install scikit-learn
+conda install tensorflow
 conda install -c rmg pydot=1.2.2
 sudo -S apt-get install graphviz
